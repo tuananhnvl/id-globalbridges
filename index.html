@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="canonical" href="https://www.id-globalbridges.au/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="fb:admins" content="ID GLOBAL BRIDGES COMPANY">
+    <meta property="og:title" content="ID GLOBAL BRIDGES chuyên sâu về tư vấn định cư Úc">
+    <meta property="og:type" content="business.business">
+    <meta property="og:url" content="https://www.id-globalbridges.au/">
+    <meta property="og:image" content="https://www.id-globalbridges.au/asset/LOGO-ID-GLOBAL-BRIDGES.png">
+    <meta property="og:site_name" content="ID GLOBAL BRIDGES COMPANY">
+    <meta property="og:description"
+        content="ID GLOBAL BRIDGES tư vấn chuyên sâu về tư vấn định cư Úc. ID GLOBAL BRIDGES là cầu nối đến tương lai thịnh vượng, an toàn">
+    <title>ID GLOBAL BRIDGES tư vấn chuyên sâu về tư vấn định cư Úc</title>
+    <meta name="description"
+        content="ID GLOBAL BRIDGES chuyên sâu về tư vấn định cư Úc. ID GLOBAL BRIDGES là cầu nối đến tương lai thịnh vượng, an toàn">
+    <meta name="keywords"
+        content="Xin visa Úc, visa lao động Úc, visa du học Úc, đầu tư kinh doanh Úc, visa định cư Úc">
+    <link rel="shortcut icon" type="image/png" href="asset/flat-logo.png" />
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    
+    <link rel="stylesheet" href="public/navbar.css">
+    <link rel="stylesheet" href="public/index.css">
+    <link rel="stylesheet" href="public/swiper-scroll.css">
+    <link rel="stylesheet" href="public/footer.css">
+
+    <!-- ban va -->
+    <link rel="stylesheet" href="http://id-globalbridges.au/public/banva001.css">
+    <!-- swiper scroll js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!--  font-awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+
+
+</head>
+<style>
+    body::-webkit-scrollbar {
+        width: 0 !important
+    }
+</style>
+
+<body>
+    <nav>
+        <div class="nav-logo">
+            <a href="index.html">
+                <img src="asset/LOGO-ID-GLOBAL-BRIDGES.png">
+            </a>
+
+        </div>
+        <div class="nav-deskop">
+            <a href="index.html">Trang chủ</a>
+            <a href="ve-chung-toi.html">Giới thiệu</a>
+            <a href="dinh-cu-uc.html">Định cư Úc & NZ</a>
+            <a href="dich-vu.html">Dịch vụ</a>
+            <a href="index.html#section--NewsFeed" id="scrollToSection">Tin tức</a>
+            <button class="btn" id="open-modal-Contact"><i class="fa-solid fa-file-signature"></i> Gửi yêu
+                cầu</button>
+            <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên
+                hệ</button>
+        </div>
+        <div class="nav-mobile">
+            <div class="list-navmoabile-item">
+                <div class="item-menu">
+                    <a href="index.html">Trang chủ</a>
+                    <a href="ve-chung-toi.html">Giới thiệu</a>
+                    <a href="dinh-cu-uc.html">Định cư Úc & NZ</a>
+                    <a href="dich-vu.html">Dịch vụ</a>
+                    <a href="index.html#section--NewsFeed" id="scrollToSection">Tin tức</a>
+                </div>
+                <div class="button-menu">
+                    <button class="btn" id="open-modal-Contact">Gửi yêu cầu</button>
+                    <button class="btn">+61-8-715-01857</button>
+                    <button class="btn">admin@id-globalbridges.au</button>
+                </div>
+
+            </div>
+        </div>
+        <a class="iconnav-mobile" id="action-navmobile" data-statusopen="0">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+        </a>
+    </nav>
+    <a class="btn-call-fixed" href="tel:+61 400 526 898">
+        <p>Contact to Us !</p>
+    </a>
+    <div class="form-Contact" id="form-Contact">
+        <div>
+            <lable>Họ và Tên</lable>
+            <input type="text" id="name-input" />
+        </div>
+        <div>
+            <lable>Số điện thoại</lable>
+            <input type="number" id="phone-input" />
+        </div>
+        <div>
+            <lable>Email</lable>
+            <input type="text" id="email-input" />
+        </div>
+        <div>
+            <lable>Thông tin yêu cầu</lable>
+            <input type="text" id="textarea-input" />
+        </div>
+        <a>
+            <button id="send-modal">Gửi !</button>
+            <button id="close-modal">Huỷ</button>
+        </a>
+
+    </div>
+    <div class="form-ContactDetail" id="form-ContactDetail">
+        <div class="ic-delk34" id="close-ContactDetail">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="kh2k3">
+            <img src="asset/LOGO-ID-GLOBAL-BRIDGES-BW.png">
+            <h3>HOTLINE</h3>
+            <p><i class="fa-solid fa-phone-volume"></i> +61-8-715-01857</p>
+            <br>
+            <h3>GMAIL</h3>
+            <p><i class="fa-solid fa-envelope"></i> admin@id-globalbridges.au</p>
+        </div>
+    </div>
+    <div id="body-html">
+
+
+        <div class="warper--herobanner">
+            <div class="wraper-child-banner">
+                <div id="slider01">
+                    <div class="child-banner child1st">
+                        <h2 class="child1st--target">
+                            ĐẦU&nbsp;TƯ - ĐỊNH&nbsp;CƯ
+                        </h2>
+                    </div>
+                    <div class="child-banner child2st">
+                        <p class="child2st--target">
+                            Định cư tại Úc đang là xu hướng ngày càng phát triển. Bởi chất lượng sống
+                            tuyệt vời và cơ hội nghề nghiệp công bằng cho tất cả mọi người.Bởi chất lượng sống
+                            tuyệt vời và cơ hội nghề nghiệp công bằng cho tất cả mọi người</p>
+                    </div>
+                    <div class="child-banner child3st">
+
+                        <button class="child3st--target" href="tel:+61 400 526 898">Xem thêm !<i
+                                class="fa-solid fa-circle-arrow-right"></i></button>
+
+                    </div>
+                </div>
+                <div id="slider02">
+                    <div class="child-banner child1st">
+                        <h2 class="child1st--target">
+                            VISA&nbsp;DU&nbsp;HỌC
+                        </h2>
+                    </div>
+                    <div class="child-banner child2st">
+                        <p class="child2st--target">
+                            Nếu bạn đang có dự định du học Úc thì chắc chắn bạn sẽ cần phải xin Visa để sinh sống và học
+                            tập tại đây.
+                            <br>
+                            &nbsp;&nbsp;-&nbsp;&nbsp;Visa Du học sinh (Student Visa) - subclass 500
+                            <br>
+                            &nbsp;&nbsp;-&nbsp;&nbsp;Visa Người giám hộ du học sinh (Student Guardian Visa) - subclass
+                            590
+                            <br>
+                            &nbsp;&nbsp;-&nbsp;&nbsp;Visa Tốt nghiệp tạm thời (Temporary Graduate Visa) - subclass 485
+                        </p>
+                    </div>
+                    <div class="child-banner child3st">
+                        <button class="child3st--target" href="tel:+61 400 526 898">Xem thêm !<i
+                                class="fa-solid fa-circle-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div id="slider03">
+                    <div class="child-banner child1st">
+                        <h2 class="child1st--target">
+                            VISA&nbsp;LAO&nbsp;ĐỘNG
+                        </h2>
+                    </div>
+                    <div class="child-banner child2st">
+                        <p class="child2st--target">
+                            Dành cho những người lao động có tay nghề cao muốn sang Úc sinh sống và làm việc theo phương
+                            pháp tính điểm mà không cần bảo lãnh bởi chủ doanh nghiệp Úc, thành viên gia đình hoặc chính
+                            quyền tiểu bang/vùng lãnh thổ.
+                            <br>
+                            &nbsp;&nbsp;-&nbsp;&nbsp;Visa Định cư tay nghề độc lập - subclass 189
+                            <br>
+                            &nbsp;&nbsp;-&nbsp;&nbsp;Visa Định cư Úc diện tay nghề có bảo lãnh - subclass 190
+                            <br>
+                            &nbsp;&nbsp;-&nbsp;&nbsp;Visa cho lao động có tay nghề tạm trú và làm việc vùng regional -
+                            subclass 491
+                            <br>
+                            &nbsp;&nbsp;-&nbsp;&nbsp;Visa diện Lao động kết hợp Kỳ nghỉ - subclass 462
+                        </p>
+                    </div>
+                    <div class="child-banner child3st">
+                        <button class="child3st--target" href="tel:+61 400 526 898">Xem thêm !<i
+                                class="fa-solid fa-circle-arrow-right"></i></button>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="demo-banner">
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="demo-banner">
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="demo-banner">
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons  <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+-->
+
+                <!-- If we need scrollbar>   <-->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+
+
+        <div class="section__2 section">
+            <span>Nước Úc có nhiều lựa chọn để bạn có thể lấy </span>
+            <span>Thường trú </span>
+            <span>và định cư </span>
+            <span>Tùy theo </span>
+            <span>khả năng và nhu cầu </span>
+            <span>mà bạn có thể chọn cho mình một con đường phù hợp.</span>
+        </div>
+
+        <div class="section__3 section">
+            <div class="section3-wrapper">
+                <div class="section3__img-wrapper">
+                </div>
+                <div class="section3__content">
+                    <div class="section3-text-wrapper">
+                        <h2>SỰ THÀNH CÔNG, HẠNH PHÚC VÀ THỊNH VƯỢNG CỦA QUÝ KHÁCH VÀ GIA ĐÌNH LÀ SỨ MỆNH CỦA CHÚNG TÔI
+                        </h2>
+                        <p>
+                            Hiện nay, ID GLOBAL BRIDGES dẫn đầu trong lĩnh vực tư vấn Định cư và đầu tự tại
+                            ÚC. Chúng tôi hiện có văn phòng tại Thành phố Hồ Chí Minh, Hà Nội, Sydney và Melbourne.
+                            Chúng tôi lấy kinh nghiệm, sự chuyên nghiệp và thấu hiểu khách hàng làm nền tảng phát triển.
+                        </p>
+                        <em style="float: right;">---- Công ty ABC</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__4 section">
+            <div class="title-wrapper">
+                <h2>DỊCH&nbsp;VỤ TƯ&nbsp;VẤN</h2>
+                <hr class="hr" />
+                <p class="qoute-style">Các chuyên gia của chúng tôi với nhiều năm kinh nghiệm về vấn đề di trú tại ÚC sẽ
+                    cung cấp dịch vụ uy
+                    tín và chất lượng nhằm thực hiện hóa giấc mơ trở thành công dân Úc của bạn và gia đình bạn.</p>
+            </div>
+            <div class="section4__box-wrapper grid">
+                <div class="row1 row">
+                    <div class="box0 col-30">
+                        <span id="transaction-count"></span>
+                        <h2>Đội ngũ kinh nghiệm</h2>
+                        <p>ID GLOBAL BRIDGES có đội ngũ tư vấn và các luật sư với nhiều năm kinh nghiệm trong lĩnh vực
+                            tư vấn định
+                            cư, đầu tư bất động sản và tài chính.</p>
+                    </div>
+                    <div class="box0 col-30">
+                        <span id="customer-count"></span>
+                        <h2>Trung thật - Minh bạch</h2>
+                        <p>Với ID GLOBAL BRIDGES niềm tin chính là nền tảng để chúng tôi phát triển và thành công. Một
+                            trong những
+                            nguyên tắc bất khả xâm phạm của ID GLOBAL BRIDGES là quy trình làm việc rõ ràng, minh bạch.
+                        </p>
+                    </div>
+                    <div class="box0 col-30">
+                        <span id="city-count"></span>
+                        <h2>Tỷ lệ thành công cao</h2>
+                        <p>Thành công của khách hàng chính là thành công của ID GLOBAL BRIDGES. ID GLOBAL BRIDGES tự hào
+                            đã đem lại sự thành công
+                            và phát triển thinh vượng cho tất cả các khách hàng của chúng tôi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__5 section">
+            <div class="row">
+                <div class="box1a col-33 section5__content-wrapper col-mW886-50">
+                    <div class="title-wrapper">
+                        <h3>TƯ&nbsp;VẤN ĐỊNH&nbsp;CƯ</h3>
+                        <p>Định cư tại Úc đang là xu hướng ngày càng phát triển. Bởi chất lượng sống tuyệt vời và cơ hội
+                            nghề nghiệp công bằng cho tất cả mọi người.</p>
+                        <a href="dich-vu.html">Xem chi tiết</a>
+                    </div>
+                </div>
+                <div class="box1a col-33 section5__content-wrapper col-mW886-50">
+                    <div class="title-wrapper">
+                        <h3>TƯ&nbsp;VẤN ĐẦU&nbsp;TƯ</h3>
+                        <p>Nền kinh tế Úc được xếp hạng tín dụng AAA tạo cơ sở để bạn tự tin đưa ra quyết định đầu tư
+                            vào bất động sản và các thể loại tài sản đầu tư khác.</p>
+                        <a href="dich-vu.html">Xem chi tiết</a>
+                    </div>
+
+                </div>
+                <div class="box1a col-33 section5__content-wrapper col-mW886-100">
+                    <div class="title-wrapper">
+                        <h3>TƯ&nbsp;VẤN DOANH&nbsp;NGHIỆP</h3>
+                        <p>Các chuyên gia tài chính doanh nghiệp của chúng tôi cung cấp đầy đủ dịch vụ tư vấn tài chính,
+                            từ mua lại, bán lại vốn và huy động vốn trên tất cả các lĩnh vực </p>
+                        <a href="dich-vu.html">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__6 section" id="section--NewsFeed">
+            <div class="title-wrapper">
+                <h2>TIN&nbsp;TỨC - SỰ&nbsp;KIỆN</h2>
+                <hr class="hr" />
+                <p class="qoute-style">Thông tin mới nhất - nhanh nhất về di trú, đầu tư bất động sản và tài chính.</p>
+            </div>
+            <div class="section6__box-wrapper grid">
+                <div class="wrapper-newfeed" style="display:flex;flex-wrap: wrap;justify-content: space-evenly">
+                    <div class="box1 col-30">
+                        <div class="img-wrapper">
+
+                        </div>
+                        <div class="box1-content-wrapper">
+                            <h3>ĐỊNH CƯ ÚC</h3>
+                            <h2>Sự Phân Phối và Kế Hoạch Của Chương Trình Di Trú</h2>
+                            <p>COVID-19 có ảnh hưởng gì đến Chương Trình Di Trú? Chính phủ đang làm gì để đảm bảo hệ
+                                thống thị thực hỗ trợ đáp ứng COVID-19 và phục hồi nền kinh tế? ...</p>
+                            <a href="tin-tuc/post01.html">Đọc bài viết</a>
+                        </div>
+                    </div>
+                    <div class="box1 col-30">
+                        <div class="img-wrapper">
+
+                        </div>
+                        <div class="box1-content-wrapper">
+                            <h3>ĐẦU TƯ ÚC</h3>
+                            <h2>Người Úc đem bất động sản cao cấp sang “săn” giới nhà giàu Việt</h2>
+                            <p>Chỉ xếp sau Trung Quốc về số lượng, trong những năm qua tốc độ đầu tư theo diện định cư
+                                của các doanh nhân Việt Nam vào Úc tăng chóng mặt...</p>
+                            <a href="tin-tuc/post03.html">Đọc bài viết</a>
+                        </div>
+                    </div>
+                    <div class="box1 col-30">
+                        <div class="img-wrapper">
+
+                        </div>
+                        <div class="box1-content-wrapper">
+                            <h3>ĐỊNH CƯ ÚC</h3>
+                            <h2>Người chuyển đến lãnh thổ Bắc Úc sẽ được hỗ trợ 15.000 đô la</h2>
+                            <p>Chính phủ Úc đưa ra nhiều chính sách ưu tiên nhằm khuyến khích di dân đến bang Bắc Úc,
+                                như thêm nhiều ngành vào danh sách...</p>
+                            <a href="tin-tuc/post07.html">Đọc bài viết</a>
+                        </div>
+                    </div>
+                    <div class="box1 col-30">
+                        <div class="img-wrapper">
+
+                        </div>
+                        <div class="box1-content-wrapper">
+                            <h3>ĐỊNH CƯ ÚC</h3>
+                            <h2>Định cư Úc theo diện đầu tư: 100% người Việt chưa biết gì?</h2>
+                            <p>Chương trình định cư Úc theo diện đầu tư nhằm tạo điều kiện thuận lợi những doanh nhân
+                                thành đạt đến định cư và phát triển kinh doanh tại Úc ...</p>
+                            <a href="tin-tuc/post04.html">Đọc bài viết</a>
+                        </div>
+                    </div>
+                    <div class="box1 col-30">
+                        <div class="img-wrapper">
+
+                        </div>
+                        <div class="box1-content-wrapper">
+                            <h3>ĐỊNH CƯ ÚC</h3>
+                            <h2>Úc rút quy định mới về bảo lãnh cha mẹ</h2>
+                            <p>Bộ trưởng Dịch vụ xã hội Úc Dan Tehan vừa bị buộc phải rút lại quy định mới yêu cầu tăng
+                                mức thu nhập tối thiểu đối với những gia đình nhập cư muốn bảo lãnh cha mẹ...</p>
+                            <a href="tin-tuc/post06.html">Đọc bài viết</a>
+                        </div>
+                    </div>
+                    <div class="box1 col-30">
+                        <div class="img-wrapper">
+
+                        </div>
+                        <div class="box1-content-wrapper">
+                            <h3>ĐỊNH CƯ ÚC</h3>
+                            <h2>Bạn phù hợp với loại visa định cư nào?</h2>
+                            <p>Luật di trú Úc đem lại nhiều lựa chọn cho các di dân, nhưng không phải các loại visa đều
+                                bình đẳng như nhau. Mỗi loại chỉ phù hợp với một số đối tượng và đem lại những quyền lợi
+                                khác nhau ....</p>
+                            <a href="tin-tuc/post02.html">Đọc bài viết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__7">
+            <div id="globeViz" class="canvas-render-format"></div>
+            <div class="section">
+                <div class="title-wrapper">
+                    <h2>Đối tác & Khách hàng</h2>
+                    <hr class="hr" />
+                    <p class="qoute-style">Since 1989. For millions of users. We transform businesses with powerful and
+                        adaptable digital
+                        solutions that satisfy the needs of today and unlock the opportunities of tomorrow.</p>
+                </div>
+                <div class="section7__company">
+                    <div class="company--logo"><img
+                            src="https://namvietlaw.vn/kjhbaw5g87qhfu/asset/logo-partner/ANZ-BANK.svg" alt=""></div>
+                    <div class="company--logo"><img
+                            src="https://namvietlaw.vn/kjhbaw5g87qhfu/asset/logo-partner/BENDIGO-BANK.svg" alt=""></div>
+                    <div class="company--logo"><img
+                            src="https://namvietlaw.vn/kjhbaw5g87qhfu/asset/logo-partner/MSB-BANK.svg" alt=""></div>
+                    <div class="company--logo custom-format-img"><img
+                            src="https://namvietlaw.vn/kjhbaw5g87qhfu/asset/logo-partner/SAIGONFS.png" alt=""></div>
+                    <div class="company--logo"><img
+                            src="https://namvietlaw.vn/kjhbaw5g87qhfu/asset/logo-partner/SCBBANK.svg" alt=""></div>
+                    <div class="company--logo"><img
+                            src="https://namvietlaw.vn/kjhbaw5g87qhfu/asset/logo-partner/TPBANK.svg" alt=""></div>
+                    <div class="company--logo"><img
+                            src="https://namvietlaw.vn/kjhbaw5g87qhfu/asset/logo-partner/WESTPAC-BANK.svg" alt=""></div>
+
+                </div>
+            </div>
+
+        </div>
+        <div></div>
+    </div>
+    <footer>
+        <div class="row section">
+            <div class="col-30 col-mW586-100">
+                <div class="title-wrapper">
+                    <h3>Về Chúng tôi</h3>
+                </div>
+                <div class="logoonfooter">
+                    <img src="asset/LOGO-ID-GLOBAL-BRIDGES-BW.png">
+                </div>
+                <div class="text-wrapper">
+                    <p>ABN: 36 662 389 237</p>
+                    <p>MBL: VIC 3020</p>
+                </div>
+
+            </div>
+            <div class="col-30 col-mW586-100">
+                <div class="title-wrapper">
+                    <h3>Liên hệ</h3>
+                </div>
+                <div class="text-wrapper">
+
+                    <a class="dk3md"><img src="asset/au--flag.svg"><span>ÚC</span></a>
+                    <p><i class="fa-solid fa-location-dot"></i> P.O Box 407, Glenroy,VIC 3046, Melbourne,Victoria,
+                        Australia</p>
+                </div>
+                <div class="text-wrapper">
+                    <p><i class="fa-solid fa-phone-volume"></i> +61-8-715-01857</p>
+                    <p><i class="fa-solid fa-envelope"></i> admin@id-globalbridges.au</p>
+                </div>
+
+            </div>
+            <div class="col-30 col-mW886-100">
+                <div class="title-wrapper">
+                    <h3>Bản đồ</h3>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.577339274933!2d144.92496661596692!3d-37.70612413566603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65afd5b6f78d9%3A0x71e30cbd42bb8cb7!2sGlenroy%20Rd%2C%20Glenroy%20VIC%203046%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1663734415032!5m2!1svi!2s"
+                    width="100%" height="279px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+        </div>
+        <div>
+            <p>Copyright © 2022 ID GLOBAL BRIDGES</p>
+            <p>All Rights Reserved.</p>
+        </div>
+
+    </footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/105/three.min.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<!-- jquery cdn  -->
+<script type="text/javascript" src="lib/jquery/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        //config gsap
+        $("#checkinggill").each(function (index) {
+            $(this).click(function () {
+
+                $('body').css({ overflow: 'hidden', 'user-select': 'none' })
+                $('#body-html').css({ filter: 'blur(3px)' })
+                $('#form-ContactDetail').css({ visibility: 'visible', transform: 'translate(-50%,-50%) scale(1)', opacity: '1', transition: 'all 500ms cubic-bezier(.25,.1,.25,1)' })
+
+                $('#close-ContactDetail').click(function () {
+                    $('#form-ContactDetail').css({ visibility: 'hidden', transform: 'translate(-50%,-50%) scale(0.5)', opacity: '0', transition: 'all 500ms cubic-bezier(.25,.1,.25,1)' })
+                    $('#body-html').css({ filter: 'blur(0)' })
+                    $('body').css({ overflow: 'auto', 'user-select': 'auto' })
+                })
+            })
+        });
+
+
+        $('#open-modal-Contact').click(function () {
+            $('body').css({ overflow: 'hidden', 'user-select': 'none' })
+            $('#body-html').css({ filter: 'blur(3px)' })
+            $('#form-Contact').css({ visibility: 'visible', transform: 'translate(-50%,-50%) scale(1)', opacity: '1', transition: 'all 500ms cubic-bezier(.25,.1,.25,1)' })
+            $('#close-modal,#send-modal').click(function () {
+                $('#form-Contact').css({ visibility: 'hidden', transform: 'translate(-50%,-50%) scale(0.5)', opacity: '0', transition: 'all 500ms cubic-bezier(.25,.1,.25,1)' })
+                $('#body-html').css({ filter: 'blur(0)' })
+                $('body').css({ overflow: 'auto', 'user-select': 'auto' })
+            })
+        })
+
+
+        $('#action-navmobile').click(function () {
+            if ($(this).attr('data-statusopen') == 0) {
+                $(this).attr("data-statusopen", 1)
+                $('.line1').css({ transform: 'rotate(45deg)' })
+                $('.line2').css({ transform: 'scaleY(0)' })
+                $('.line3').css({ transform: 'rotate(-45deg)' })
+                $('.nav-mobile').addClass('move-navmobile ')
+            } else {
+                $(this).attr("data-statusopen", 0)
+                $('.line1').css({ transform: 'rotate(0deg)' })
+                $('.line2').css({ transform: 'scaleY(1)' })
+                $('.line3').css({ transform: 'rotate(0deg)' })
+                $('.nav-mobile').removeClass('move-navmobile ')
+            }
+        })
+
+        // set img to slider
+        const imgbanner = ['https://namvietlaw.vn/kjhbaw5g87qhfu/asset/img-uc.jpg', 'https://namvietlaw.vn/kjhbaw5g87qhfu/asset/dautuUc.jpg', 'https://namvietlaw.vn/kjhbaw5g87qhfu/asset/img-uc02.webp']
+        const d = document.querySelectorAll('.demo-banner');
+        for (let i = 0; i < d.length; i++) {
+
+            $('style').append(`.swiper-wrapper>div:nth-child(${i + 1})>.demo-banner::before {background-image:url(${imgbanner[i]});background-size:cover}`);
+        }
+
+
+        // action swiper
+        // set defuat
+        const listslider = document.querySelectorAll('.wraper-child-banner');
+
+        console.log($('#slider01').children().children())
+        const arrsldier01 = $('#slider01').children().children();
+        const arrsldier02 = $('#slider02').children().children();
+        const arrsldier03 = $('#slider03').children().children();
+        // slider 1 defuat
+        for (i = 0; i < arrsldier01.length; i++) {
+            gsap.to(arrsldier01[i], {
+                opacity: 1,
+                transform: 'translateY(-50%)',
+                duration: 1
+            });
+        }
+
+        // start swipoer funct
+        const namepaga = ['ĐẦU&nbsp;TƯ - ĐỊNH&nbsp;CƯ', 'VISA&nbsp;DU&nbsp;HỌC', 'VISA&nbsp;LAO&nbsp;ĐỘNG']
+        const bodem = [1, 2, 3]
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'vertical',
+            effect: 'fade',
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<span id="custom-styleAuth" class="' + className + ' custom-styleAuth "><p>' + (namepaga[index]) + '</p></span>';
+                },
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+            on: {
+                slideChange: function () {
+                    console.log(this.activeIndex)
+
+                },
+                slideChangeTransitionStart: function () {
+                    resetApplyBtnCheck(this.activeIndex)
+                    console.log('start')
+                    calAni(this.activeIndex)
+
+
+
+                },
+                slideChangeTransitionEnd: function () {
+
+
+                    console.log('end')
+                }
+            }
+        });
+        // set defual <i> icon on btn on slider
+
+        for (i = 0; i < 3; i++) {
+            gsap.to($(`#slider0${i + 1}`).children().children()[2], {
+                scale: 1,
+                opacity: 0,
+                duration: 0.23456789
+            })
+        }
+
+        function calAni(idCur) {
+
+
+        }
+
+        // set defual btn pagi slider click ( defuat 1)
+        const ko = document.querySelectorAll('#custom-styleAuth')
+        $(ko[0]).addClass('classForCheckFUNCT')
+        console.log($(`#slider0${1}`).children().children()[2])
+        // funct for btn pagi
+        function resetApplyBtnCheck(yj) {
+            for (let i = 0; i < ko.length; i++) {
+                if (i !== yj) {
+                    $(ko[i]).removeClass('classForCheckFUNCT')
+                    gsap.to($(`#slider0${i + 1}`).children().children()[0], {
+                        opacity: 0,
+                        transform: 'translateY(90%)',
+                        duration: 0.8
+                    })
+
+                    gsap.to($(`#slider0${i + 1}`).children().children()[1], {
+                        opacity: 0,
+                        transform: 'translate(3%, -50%)',
+                        duration: 0.4
+                    })
+
+                    gsap.to($(`#slider0${i + 1}`).children().children()[2], {
+                        scale: .8,
+                        opacity: 0,
+                        ease: Power1.easeInOut,
+                        duration: 0.23456789
+                    })
+                } else {
+                    $(ko[yj]).addClass('classForCheckFUNCT')
+                    gsap.to($(`#slider0${i + 1}`).children().children()[0], {
+                        opacity: 1,
+                        transform: 'translateY(-50%)',
+                        duration: 1
+                    });
+
+                    gsap.to($(`#slider0${i + 1}`).children().children()[1], {
+                        opacity: 1,
+                        transform: 'translate(0%, -50%)',
+                        duration: 0.8
+                    })
+
+                    gsap.to($(`#slider0${i + 1}`).children().children()[2], {
+                        scale: 1,
+                        opacity: 1,
+                        ease: Power1.easeInOut,
+                        duration: 0.23456789
+                    })
+                }
+
+            }
+
+        }
+
+
+
+
+        const ao = document.querySelectorAll('#scrollToSection')
+        $(ao).each(function (index) {
+            $(this).on('click', function (event) {
+                console.log($(this).attr('href'))
+                $('.nav-mobile').removeClass('move-navmobile')
+                if ($(this).attr('href') !== "") {
+                    event.preventDefault();
+                    let c = Math.round(window.innerHeight / (100 / Math.round(window.innerHeight / 100)));
+                    //  console.log($($(this).attr('href')).offset().top)
+                    // console.log(c)
+                    $('html, body').animate({
+                        scrollTop: $($(this).attr('href')).offset().top - c
+                    }, 500, function () {
+                        $('.nav-mobile').removeClass('move-navmobile')
+                    });
+                }
+            });
+        });
+
+
+
+
+
+
+        localStorage.removeItem('KeyAction')
+
+
+        // count number increa
+        function animateNumber(finalNumber, duration = 5000, startNumber = 0, callback) {
+            const startTime = performance.now()
+            function updateNumber(currentTime) {
+                const elapsedTime = currentTime - startTime
+                if (elapsedTime > duration) {
+                    callback(finalNumber)
+                } else {
+                    const rate = elapsedTime / duration
+                    const currentNumber = Math.round(rate * finalNumber)
+                    callback(currentNumber)
+                    requestAnimationFrame(updateNumber)
+                }
+            }
+            requestAnimationFrame(updateNumber)
+        }
+
+        runIncre()
+        function runIncre() {
+            animateNumber(400, 5000, 0, function (number) {
+                const formattedNumber = number.toLocaleString()
+                $('#transaction-count').html(`${formattedNumber}+`)
+
+            })
+
+            animateNumber(97, 5000, 0, function (number) {
+                const formattedNumber = number.toLocaleString()
+                document.getElementById('city-count').innerText = `${formattedNumber}%`
+            })
+
+            animateNumber(150, 5000, 0, function (number) {
+                const formattedNumber = number.toLocaleString()
+                document.getElementById('customer-count').innerText = `${formattedNumber}+`
+            })
+        }
+
+        var scene, camera, renderer, clock, binormal, normal, tube;
+
+        init();
+
+        function init() {
+
+
+            scene = new THREE.Scene();
+
+            // scene.background = new THREE.Color( 'white' );
+
+            // CAMERA
+            camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1000);
+            camera.position.set(0, 0, 48);//wide position
+            camera.lookAt(0, 0, 0);
+
+
+            // RENDER
+            renderer = new THREE.WebGLRenderer({ alpha: true });
+            renderer.setClearColor(0x000000, 0);
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            document.body.appendChild(renderer.domElement);
+
+            // SET LIGHT
+
+            const ambientLight = new THREE.AmbientLight(0xd2d2d2, 1);
+            scene.add(ambientLight);
+
+
+
+
+            // OBJECT HERE !
+
+            const earthGeometry = new THREE.SphereGeometry(17, 50, 50);
+            const myUrl = './asset/ee.png'
+            const textureLoader = new THREE.TextureLoader()
+            textureLoader.crossOrigin = "Anonymous"
+            const myTexture = textureLoader.load(myUrl)
+            const earthMaterial = new THREE.MeshPhongMaterial({
+                map: myTexture,
+                color: 0xffffff,
+                specular: 0x333333,
+                shininess: 25
+            });
+            const earth = new THREE.Mesh(earthGeometry, earthMaterial);
+
+            scene.add(earth);
+
+
+
+            // CONTROL OBJECT, IMPORTANT!!!!!!!!!!!!!!!!!!!!!!!!
+
+            earth.position.set(0, 0, 0);
+            //tube.rotation.x = Math.PI / 1.2;
+
+
+
+            window.addEventListener('resize', resize, false);
+            // RUN UPDATE TO LOOP
+            update();
+
+            function update() {
+                requestAnimationFrame(update); // BA91T BUỘC , REQUSTFRAME
+                //  updateCamera();
+
+                earth.rotation.y += 0.0005;
+
+                renderer.render(scene, camera);
+                document.getElementById('globeViz').appendChild(renderer.domElement);
+            }
+        }
+
+
+        function updateCamera() {
+
+        }
+
+
+        function resize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            if (window.innerWidth < 400) {
+                renderer.setSize(window.innerWidth, 400);
+            } else {
+                renderer.setSize(window.innerWidth, window.innerHeight);
+            }
+
+        }
+
+
+
+
+    })
+</script>
+
+</html>

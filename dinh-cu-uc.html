@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+    <link rel="shortcut icon" type="image/png" href="asset/flat-logo.png" />
+    <link rel="shortcut icon" type="image/png" href="http://id-globalbridges.au/imgnvl/imglogo/namvietluat.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tư Vấn Di Trú cho người Việt Nam - ID GLOBAL BRIDGES COMPANY</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="public/navbar.css">
+    <link rel="stylesheet" href="public/index.css">
+
+    <link rel="stylesheet" href="public/footer.css">
+
+    <!-- ban va -->
+    <link rel="stylesheet" href="public/dinh-cu-uc.css">
+    <!-- swiper scroll js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!--  font-awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <style>
+        .swiper {
+            width: 600px;
+            height: fit-content;
+        }
+        .mySwiper2 > div > .swiper-slide,.mySwiperXX > div > .swiper-slide {
+
+            height: 420px !important;
+            display: flex;
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+
+
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+
+
+        .swiper-slide {
+            background-size: cover;
+            background-position: center;
+        }
+
+        .mySwiper2 ,.mySwiperXX {
+            width: 600px;
+            height: fit-content;
+        }
+
+        .mySwiperThumb, .mySwiperThumbXX {
+            height: 100px;
+            box-sizing: border-box;
+            padding: 10px 0;
+        }
+
+        .mySwiperThumb .swiper-slide,.mySwiperThumbXX .swiper-slide {
+            width: 25%;
+            height: 100%;
+       
+            opacity: 0.4;
+        }
+
+        .mySwiperThumb .swiper-slide-thumb-active,.mySwiperThumbXX .swiper-slide-thumb-active {
+            opacity: 1;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+
+        @media(max-width:586px) {
+      
+        .btn-contact-wapper >div.row>a {
+            font-size: 1rem  !important;    
+        }
+    }
+    .btn-contact-wapper {
+        width: 100%;
+
+    }
+    .btn-contact-wapper >div.row>a {
+        background-color:#323364 !important;
+        position: relative;
+        z-index: 20;
+        padding: 2rem;
+        text-align: center;
+        color:#fff;
+        font-weight: bold;
+        font-size: 2rem;
+        cursor:pointer;
+    }
+    .btn-contact-wapper >div.row>a:hover {
+        background-color:#171840 !important;
+    }
+    </style>
+
+
+</head>
+<style>
+    body::-webkit-scrollbar {
+        width: 0 !important
+    }
+</style>
+
+<body>
+    <nav>
+        <div class="nav-logo">
+            <a href="index.html">
+                <img src="asset/LOGO-ID-GLOBAL-BRIDGES.png">
+            </a>
+
+        </div>
+        <div class="nav-deskop">
+            <a href="index.html">Trang chủ</a>
+            <a href="ve-chung-toi.html">Giới thiệu</a>
+            <a href="dinh-cu-uc.html">Định cư Úc & NZ</a>
+            <a href="dich-vu.html">Dịch vụ</a>
+           
+            <button class="btn" id="open-modal-Contact"><i class="fa-solid fa-file-signature"></i> Gửi yêu
+                cầu</button>
+            <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+        </div>
+        <div class="nav-mobile">
+            <div class="list-navmoabile-item">
+                <div class="item-menu">
+                    <a href="index.html">Trang chủ</a>
+                    <a href="ve-chung-toi.html">Giới thiệu</a>
+                    <a href="dinh-cu-uc.html">Định cư Úc & NZ</a>
+                    <a href="dich-vu.html">Dịch vụ</a>
+                   
+                </div>
+                <div class="button-menu">
+                    <button class="btn" id="open-modal-Contact">Gửi yêu cầu</button>
+                    <button class="btn" id="open-modal-Contact" href="tel:+61 400 526 898">Liên hệ</button>
+                </div>
+
+            </div>
+        </div>
+        <a class="iconnav-mobile" id="action-navmobile" data-statusopen="0">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+        </a>
+    </nav>
+    <a class="btn-call-fixed" href="tel:+61 400 526 898">
+        <p>Contact to Us !</p>
+    </a>
+    <div class="form-Contact" id="form-Contact">
+        <div>
+            <lable>Họ và Tên</lable>
+            <input type="text" id="name-input" />
+        </div>
+        <div>
+            <lable>Số điện thoại</lable>
+            <input type="number" id="phone-input" />
+        </div>
+        <div>
+            <lable>Email</lable>
+            <input type="text" id="email-input" />
+        </div>
+        <div>
+            <lable>Thông tin yêu cầu</lable>
+            <input type="text" id="textarea-input" />
+        </div>
+        <a>
+            <button id="send-modal">Gửi !</button>
+            <button id="close-modal">Huỷ</button>
+        </a>
+
+    </div>
+    <div class="form-ContactDetail" id="form-ContactDetail">
+        <div class="ic-delk34" id="close-ContactDetail">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="kh2k3">
+            <img src="asset/LOGO-ID-GLOBAL-BRIDGES-BW.png">
+            <h3>HOTLINE</h3>
+            <p><i class="fa-solid fa-phone-volume"></i> +61-8-715-01857</p>
+            <br>
+            <h3>GMAIL</h3>
+            <p><i class="fa-solid fa-envelope"></i> admin@id-globalbridges.au</p>
+        </div>
+    </div>
+    <div id="body-html">
+        <div class="sec-dautukinhdoanh">
+            <div class=" banner-dinhcu">
+
+                <p>Định cư Úc</p>
+                <h2>Diện Đầu Tư Kinh Doanh</h2>
+            </div>
+        </div>
+        <p class="qoute-style kemjbmja"><strong>ID GLOBAL BRIDGES</strong> cung cấp những dòng visa đầu tư kinh doanh Úc
+            dành cho các khách hàng là Chủ doanh nghiệp, Cổ đông lớn, Nhà đầu tư (bất động sản, cổ phiếu ...), hoặc bất
+            kì ai có tiềm lực tài chính mong muốn đầu tư hoặc kinh doanh để định cư ở Úc với các điều kiện cập nhật của
+            năm 2022-2023.</p>
+
+        <div class="section sgsgdfzxbh">
+           <p>Định cư Úc diện đầu tư, kinh doanh tại ID GLOBAL BRIDGES bao gồm các loại visa sau:</p>
+           <ul>
+            <li>Visa 188A - Doanh nhân sáng tạo Úc</li>
+            <li>Visa 188B - Đầu tư tài chính Úc</li>
+            <li>Visa 188C - Nhà đầu tư lớn Úc</li>
+            <li>Visa 188E - Doanh nhân khởi nghiệp Úc</li>
+            <li>Visa 888 - Thường trú nhân đầu tư kinh doanh Úc</li>
+           </ul>
+        </div>
+        <div class="section">
+            <div class="row mhbmc" style="flex-wrap: wrap;">
+                <div class="col-50 mw100-555px ">
+                    <div class="item-j2h3b">
+                        <img src="asset/dinh-cu-uc/188a.png">
+                        <h2>Visa 188A - Doanh Nhân Sáng Tạo</h2>
+                        <p>Visa 188A dành cho chủ doanh nghiệp có lịch sử kinh doanh thành công, mong muốn kinh doanh
+                            định cư ở Úc với số vốn đầu tư từ 200k aud (khoảng 3.6 tỷ đồng).</p>
+
+                        <div class="btn-w-3jn3">
+                            <a class="btn">Xem chi tiết</a>
+                            <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-50 mw100-555px ">
+                    <div class="item-j2h3b">
+                        <img src="asset/dinh-cu-uc/188b.png">
+                        <h2>Visa 188B - Nhà Đầu Tư Tài Chính</h2>
+                        <p>Visa 188B – Nhà Đầu Tư Tài Chính (trước đây gọi là visa đầu tư trái phiếu) dành cho nhà đầu
+                            tư (BĐS, cổ phiếu, tài chính) hoặc chủ doanh nghiệp có tài sản tích luỹ tốt và mong muốn đầu
+                            tư 2.5 triệu AUD vào Úc để đạt điều kiện lên thường trú nhân.</p>
+                        <div class="btn-w-3jn3">
+                            <a class="btn">Xem chi tiết</a>
+                            <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-50 mw100-555px ">
+                    <div class="item-j2h3b">
+                        <img src="asset/dinh-cu-uc/188c.png">
+                        <h2>Visa 188C - Nhà Đầu Tư Lớn</h2>
+                        <p>Visa định cư Úc 188C dành cho các nhà đầu tư tài chính lớn, với số vốn đầu tư tối thiểu là 5
+                            triệu AUD vào các danh mục đầu tư theo yêu cầu của chính phủ Úc.</p>
+                        <div class="btn-w-3jn3">
+                            <a class="btn">Xem chi tiết</a>
+                            <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-50 mw100-555px ">
+                    <div class="item-j2h3b">
+                        <img src="asset/dinh-cu-uc/888.png">
+                        <h2>Visa 888 - Thường trú nhân</h2>
+                        <p>Đây là visa thường trú tiếp theo của các dòng visa tạm trú đầu tư kinh doanh Úc số hiệu
+                            188A/B/C ở trên. Sau khi thực hiện các điều kiện cam kết đầu tư, kinh doanh của visa 188
+                            A/B/C/E thì đương đơn sẽ nộp đơn xin xét duyệt visa 888A/B/C/E này để trở thành thường trú
+                            nhân tại Úc và sau đó là thi quốc tịch Úc để chính thức trở thành công dân Úc.</p>
+                        <div class="btn-w-3jn3">
+                            <a class="btn">Xem chi tiết</a>
+                            <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-50 mw100-555px ">
+                    <div class="item-j2h3b">
+                        <img src="asset/dinh-cu-uc/188e.png">
+                        <h2>Visa 188E - Doanh Nhân Khởi Nghiệp</h2>
+                        <p>Đây là dòng visa đầu tư định cư Úc dành cho bất kì ai có ý tưởng kinh doanh mang tính sáng
+                            tạo đột phá và muốn hiện thực hoá ý tưởng của mình tại Úc để được cấp thường trú Úc cho cả
+                            gia đình mình.</p>
+                        <div class="btn-w-3jn3">
+                            <a class="btn">Xem chi tiết</a>
+                            <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-50 mw100-555px ">
+                    <div class="item-j2h3b">
+                        <img src="asset/dinh-cu-uc/132b.png">
+                        <h2>Visa 132B - Quỹ Đầu Tư Khởi Nghiệp</h2>
+                        <p>Visa 132B là visa thường trú Úc diện đầu tư kinh doanh dành cho đương đơn có ý tưởng kinh
+                            doanh sáng tạo, được một quỹ đầu tư hợp lệ cấp vốn và mong muốn thực hiện ý tưởng của mình
+                            sau khi được cấp thường trú. Visa 132B chính thức đóng vĩnh viễn từ 01/07/2021.</p>
+                        <div class="btn-w-3jn3">
+                            <a class="btn">Xem chi tiết</a>
+                            <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="sec-laodong">
+            <div class="section sdfsa34f">
+                <div class="row" style="flex-wrap:wrap;justify-content: center!important;">
+                    <div class="col-30 mw100-1000px" style="display:flex">
+                        <div class="jhb3bdf">
+                            <p>Định cư Úc</p>
+                            <h2>Diện Tay Nghề</h2>
+                        </div>
+                       
+                    </div>
+                    <div class="col-50 mw100-1000px">
+                        <div>
+                            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                                class="swiper mySwiper2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="boxonslider-k3hj45">
+                                            <h2>Visa 491 - Vùng Chỉ Định</h2>
+                                            <p>Diện tay nghề Úc vùng chỉ định 491 (Skilled Regional Provisional) là visa
+                                                tạm trú 5 năm, cho
+                                                phép bạn sống, làm việc ở những vùng nhất định của Úc. Bạn cần được bảo
+                                                lãnh bởi người thân
+                                                ở Úc sống trong vùng, hoặc bởi một tiểu bang.</p>
+
+                                            <div class="boxonsliderbtn-w-3jn3">
+                                                <a class="btn">Xem chi tiết</a>
+                                                <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="boxonslider-k3hj45">
+                                            <h2>Visa 190 - Bang bảo lãnh</h2>
+                                            <p>Diện tay nghề được bảo lãnh – Skilled Nominated, Subclass 190 là loại
+                                                visa thường trú vĩnh
+                                                viễn, đòi hỏi phải được bảo lãnh bởi một tiểu bang của chính phủ Úc.</p>
+                                            <div class="boxonsliderbtn-w-3jn3">
+                                                <a class="btn">Xem chi tiết</a>
+                                                <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="boxonslider-k3hj45">
+                                            <h2>Visa 189 - Tay nghề độc lập</h2>
+                                            <p>Diện tay nghề độc lập – Skilled Independent, Subclass 189 là loại visa
+                                                thường trú vĩnh viễn,
+                                                không yêu cầu phải bảo lãnh bởi thân nhân hoặc tiểu bang/chính phủ.</p>
+                                            <div class="boxonsliderbtn-w-3jn3">
+                                                <a class="btn">Xem chi tiết</a>
+                                                <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="boxonslider-k3hj45">
+                                            <h2>Visa 485 & 476</h2>
+                                            <p>Diện sinh viên tốt nghiệp – Subclass 485 & 476. Nếu bạn là sinh viên du
+                                                học Úc và mong muốn ở
+                                                lại Úc sau khi hoàn tất các chương trình học tập, sẽ có vài loại visa
+                                                tạm thời hay vĩnh viễn
+                                                có thể phù hợp với bạn.</p>
+                                            <div class="boxonsliderbtn-w-3jn3">
+                                                <a class="btn">Xem chi tiết</a>
+                                                 <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="boxonslider-k3hj45">
+                                            <h2>Visa 457 - Công ty bảo lãnh</h2>
+                                            <p>Là diện làm việc do công ty bảo lãnh (tạm trú) – Employer sponsored, để
+                                                đạt được visa này,
+                                                bạn phải sống trong vùng được chỉ định của Úc suốt 2 năm và làm việc
+                                                toàn thời gian ở đó ít
+                                                nhất 12 tháng.</p>
+                                            <div class="boxonsliderbtn-w-3jn3">
+                                                <a class="btn">Xem chi tiết</a>
+                                                 <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="boxonslider-k3hj45">
+                                            <h2>Visa 124/858 - Tài Năng Toàn Cầu</h2>
+                                            <p>Chính phủ Úc vừa công bố chính sách đặc biệt tăng chỉ tiêu visa diện Tài năng toàn cầu – Global Talent Independent Visa (GTI) lên gấp 3 lần (từ 5,000 suất lên 15,000 suất) cho năm tài khoá 2020 – 2021, nhằm thu hút tài năng trên thế giới đến định cư Úc bằng visa thường trú (PR) với mức độ ưu tiên xét duyệt cao nhất.</p>
+                                            <div class="boxonsliderbtn-w-3jn3">
+                                                <a class="btn">Xem chi tiết</a>
+                                                 <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="boxonslider-k3hj45">
+                                            <h2>Visa 188E - Doanh Nhân Khởi Nghiệp</h2>
+                                            <p>Đây là dòng visa đầu tư định cư Úc dành cho bất kì ai có ý tưởng kinh doanh mang tính sáng tạo đột phá và muốn hiện thực hoá ý tưởng của mình tại Úc để được cấp thường trú Úc cho cả gia đình mình.</p>
+                                            <div class="boxonsliderbtn-w-3jn3">
+                                                <a class="btn">Xem chi tiết</a>
+                                                 <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                            <p style="padding-bottom: 1rem;font-weight:bold;font-style:italic;text-align: center;">Các loại Visa theo diện này</p>
+                            <div thumbsSlider="" class="swiper mySwiperThumb">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div>
+                                            Visa 491
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div>
+                                            Visa 190
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div>
+                                            Visa 189
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div>
+                                            Visa 485 & 476
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div>
+                                            Visa 457
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div>
+                                            Visa 124/858
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div>
+                                            Visa 188E
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br><br>
+        <div class="btn-contact-wapper">
+            <div class="row">
+                <a class="col-50" id="open-modal-Contact"><i class="fa-solid fa-clipboard-list"></i>  Đăng&nbsp;ký tư&nbsp;vấn</a>
+                <a class="col-50" href="tel:+61 400 526 898"><i class="fa-solid fa-phone-volume"></i>  Liên&nbsp;hệ ngay</a>
+            </div>
+        </div>
+       <!--  <div class="sec-duhoc">
+            <div class="section sdfsa34f">
+                <div class="row" style="flex-wrap:wrap;justify-content: center!important;">
+                    <div class="col-30 mw100-1000px" style="display:flex">
+                        <div class="jhb3bdf">
+                            <p>Định cư Úc</p>
+                            <h2>Diện Tay Nghề</h2>
+                        </div>
+                       
+                    </div>
+                    <div class="col-50 mw100-1000px">
+                        <div>
+                            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                                class="swiper mySwiperXX">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="boxonslider-k3hj45">
+                                            <h2>Visa 491 - Vùng Chỉ Định</h2>
+                                            <p>Diện tay nghề Úc vùng chỉ định 491 (Skilled Regional Provisional) là visa
+                                                tạm trú 5 năm, cho
+                                                phép bạn sống, làm việc ở những vùng nhất định của Úc. Bạn cần được bảo
+                                                lãnh bởi người thân
+                                                ở Úc sống trong vùng, hoặc bởi một tiểu bang.</p>
+
+                                            <div class="boxonsliderbtn-w-3jn3">
+                                                <a class="btn">Xem chi tiết</a>
+                                                 <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="boxonslider-k3hj45">
+                                            <h2>Visa 190 - Bang bảo lãnh</h2>
+                                            <p>Diện tay nghề được bảo lãnh – Skilled Nominated, Subclass 190 là loại
+                                                visa thường trú vĩnh
+                                                viễn, đòi hỏi phải được bảo lãnh bởi một tiểu bang của chính phủ Úc.</p>
+                                            <div class="boxonsliderbtn-w-3jn3">
+                                                <a class="btn">Xem chi tiết</a>
+                                                 <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="boxonslider-k3hj45">
+                                            <h2>Visa 189 - Tay nghề độc lập</h2>
+                                            <p>Diện tay nghề độc lập – Skilled Independent, Subclass 189 là loại visa
+                                                thường trú vĩnh viễn,
+                                                không yêu cầu phải bảo lãnh bởi thân nhân hoặc tiểu bang/chính phủ.</p>
+                                            <div class="boxonsliderbtn-w-3jn3">
+                                                <a class="btn">Xem chi tiết</a>
+                                                 <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="boxonslider-k3hj45">
+                                            <h2>Visa 485 & 476</h2>
+                                            <p>Diện sinh viên tốt nghiệp – Subclass 485 & 476. Nếu bạn là sinh viên du
+                                                học Úc và mong muốn ở
+                                                lại Úc sau khi hoàn tất các chương trình học tập, sẽ có vài loại visa
+                                                tạm thời hay vĩnh viễn
+                                                có thể phù hợp với bạn.</p>
+                                            <div class="boxonsliderbtn-w-3jn3">
+                                                <a class="btn">Xem chi tiết</a>
+                                                 <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="boxonslider-k3hj45">
+                                            <h2>Visa 457 - Công ty bảo lãnh</h2>
+                                            <p>Là diện làm việc do công ty bảo lãnh (tạm trú) – Employer sponsored, để
+                                                đạt được visa này,
+                                                bạn phải sống trong vùng được chỉ định của Úc suốt 2 năm và làm việc
+                                                toàn thời gian ở đó ít
+                                                nhất 12 tháng.</p>
+                                            <div class="boxonsliderbtn-w-3jn3">
+                                                <a class="btn">Xem chi tiết</a>
+                                                 <button id="checkinggill" class="btn" href="tel:+61 400 526 898"><i class="fa-solid fa-phone"></i> Liên hệ</button >
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                            <div thumbsSlider="" class="swiper mySwiperThumbXX">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div>
+                                            Visa 491
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div>
+                                            Visa 190
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div>
+                                            Visa 189
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div>
+                                            Visa 485 & 476
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div>
+                                            Visa 457
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+ -->
+
+
+
+    </div>
+    <footer>
+        <div class="row section">
+            <div class="col-30 col-mW586-100">
+                <div class="title-wrapper">
+                    <h3>Về Chúng tôi</h3>
+                </div>
+                <div class="logoonfooter">
+                    <img src="asset/LOGO-ID-GLOBAL-BRIDGES-BW.png">
+                </div>
+                <div class="text-wrapper">
+                    <p>ABN: 36 662 389 237</p>
+                    <p>MBL: VIC 3020</p>
+                </div>
+
+            </div>
+            <div class="col-30 col-mW586-100">
+                <div class="title-wrapper">
+                    <h3>Liên hệ</h3>
+                </div>
+               <div class="text-wrapper">
+                  
+                    <a class="dk3md"><img src="asset/au--flag.svg"><span>ÚC</span></a>
+                    <p><i class="fa-solid fa-location-dot"></i>  P.O Box 407, Glenroy,VIC 3046, Melbourne,Victoria,  Australia</p>
+                </div>
+                <div class="text-wrapper">
+                    <p><i class="fa-solid fa-phone-volume"></i> +61-8-715-01857</p>
+                    <p><i class="fa-solid fa-envelope"></i> admin@id-globalbridges.au</p>
+                </div>
+            </div>
+            <div class="col-30 col-mW886-100">
+                <div class="title-wrapper">
+                    <h3>Bản đồ</h3>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.577339274933!2d144.92496661596692!3d-37.70612413566603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65afd5b6f78d9%3A0x71e30cbd42bb8cb7!2sGlenroy%20Rd%2C%20Glenroy%20VIC%203046%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1663734415032!5m2!1svi!2s"
+                    width="100%" height="279px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+        </div>
+        <div>
+            <p>Copyright © 2022 ID GLOBAL BRIDGES</p>
+            <p>All Rights Reserved.</p>
+        </div>
+
+    </footer>
+</body>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/105/three.min.js"></script> -->
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<!-- jquery cdn  -->
+<script type="text/javascript" src="lib/jquery/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        const checkinggillList = document.querySelectorAll("#checkinggill")
+        $(checkinggillList).each(function (index) {
+            $(this).click(function () {
+
+                $('body').css({ overflow: 'hidden', 'user-select': 'none' })
+                $('#body-html').css({ filter: 'blur(3px)' })
+                $('#form-ContactDetail').css({ visibility: 'visible', transform: 'translate(-50%,-50%) scale(1)', opacity: '1', transition: 'all 500ms cubic-bezier(.25,.1,.25,1)' })
+
+                $('#close-ContactDetail').click(function () {
+                    $('#form-ContactDetail').css({ visibility: 'hidden', transform: 'translate(-50%,-50%) scale(0.5)', opacity: '0', transition: 'all 500ms cubic-bezier(.25,.1,.25,1)' })
+                    $('#body-html').css({ filter: 'blur(0)' })
+                    $('body').css({ overflow: 'auto', 'user-select': 'auto' })
+                })
+            })
+        });
+
+
+        const listBtnForm = document.querySelectorAll("#open-modal-Contact")
+        $(listBtnForm).each(function( index ) {
+           // $(this).css({  backgroundColor: 'rgb(197 ,211 ,224, 0.5)'})
+            $(this).click(function() {
+            $('body').css({ overflow: 'hidden','user-select':'none'})
+            $('#body-html').css({filter: 'blur(3px)'})
+            $('#form-Contact').css({visibility: 'visible',transform:'translate(-50%,-50%) scale(1)',opacity: '1',transition: 'all 500ms cubic-bezier(.25,.1,.25,1)'})
+            $('#close-modal,#send-modal').click(function() {
+                $('#form-Contact').css({visibility: 'hidden',transform:'translate(-50%,-50%) scale(0.5)',opacity: '0',transition: 'all 500ms cubic-bezier(.25,.1,.25,1)'})
+                $('#body-html').css({filter: 'blur(0)'})
+                $('body').css({ overflow: 'auto','user-select':'auto'})
+            })
+        })
+        });
+      
+        
+
+        $('#action-navmobile').click(function () {
+            if ($(this).attr('data-statusopen') == 0) {
+                $(this).attr("data-statusopen", 1)
+                $('.line1').css({ transform: 'rotate(45deg)' })
+                $('.line2').css({ transform: 'scaleY(0)' })
+                $('.line3').css({ transform: 'rotate(-45deg)' })
+                $('.nav-mobile').addClass('move-navmobile ')
+            } else {
+                $(this).attr("data-statusopen", 0)
+                $('.line1').css({ transform: 'rotate(0deg)' })
+                $('.line2').css({ transform: 'scaleY(1)' })
+                $('.line3').css({ transform: 'rotate(0deg)' })
+                $('.nav-mobile').removeClass('move-navmobile ')
+            }
+        })
+
+
+
+        //swiper gruop
+        var swiper = new Swiper(".mySwiperThumb", {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+        spaceBetween: 10,
+        slidesPerView: 1,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+            swiper: swiper,
+        },
+        breakpoints: {
+          650: {
+            spaceBetween: 0,
+         
+          }
+        },
+    });
+    var swiper3 = new Swiper(".mySwiperThumbXX", {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+
+    });
+    var swiper4 = new Swiper(".mySwiperXX", {
+        spaceBetween: 10,
+        slidesPerView: 1,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+            swiper: swiper3,
+        },
+        breakpoints: {
+          650: {
+            spaceBetween: 0,
+         
+          }
+        },
+    });
+    })
+</script>
+
+
+</html>

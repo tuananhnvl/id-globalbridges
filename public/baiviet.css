@@ -1,0 +1,120 @@
+@media(max-width:1180px) {
+    .wapper-content {
+        width: 80% !important;
+        padding: 4rem !important;
+    }
+}
+@media(max-width:886px) {
+    .wapper-content {
+        width: 90% !important;
+        padding: 4rem !important;
+    }
+    .wapper-content > h2 {
+        margin-top: 1rem;
+        font-size: 2.5rem!important;
+        line-height: 150%;
+    }
+}
+@media(max-width:586px) {
+    .wapper-content {
+        width: 90% !important;
+        padding: 1rem !important;
+    }
+    .wapper-content > h2 {
+        margin-top: 1rem;
+        font-size: 2rem!important;
+        line-height: 150%;
+    }
+}
+.wrapper-content-detial >div> p {
+    margin: 0.5rem 0;
+}
+.section-wrapper-content {
+    height: fit-content;
+}
+.background-titleBody{
+    width:100%;
+    height: 45vh;
+    position:relative;
+    background-image:url(../asset/baiviet/bg-baiviet.png);
+    background-size: cover;
+    background-position: 0 -400px;
+    z-index: 9; 
+}
+.section {
+    position: relative;
+}
+.wapper-content {
+    position:relative;
+    width: 70%;
+    margin: -25vh auto 0;
+    background-color: #fff;
+    padding: 5rem;
+    z-index: 999;
+    transition: all 300ms ease-out;
+}
+.wapper-content > h2 {
+    margin-top: 1rem;
+    font-size: 3rem;
+    line-height: 150%;
+}
+.wapper-content > h3 {
+    font-size: 1.5rem;
+    border-left: 0.5rem solid rgb(207, 67, 24);
+}
+.wapper-content > a {
+    margin-top: 1rem;
+}
+.wrapper-content-detial >div>img{
+    max-width:100%;
+    height:auto;
+}
+.date-push {
+    padding: 0.5rem;
+    display: block;
+    width: fit-content;
+    background-color: rgb(22, 22, 99);
+    color:#fff;
+    border:0px;
+}
+.wrapper-content-detial {
+    margin-top:3rem;
+}
+.menu-post-fixed {
+    display:none;
+    width: 300px;
+    height: 420px;
+    position: absolute;
+    top: 40%;
+    right: 10vh;
+    z-index: 9999;
+    background-color: #fff;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+}
+.menu-post-fixed > .items-menu>a:nth-child(n) {
+    display: block;
+    width: fit-content;
+   padding: 1rem;
+    margin: 1rem;
+   background-color: aqua;
+}
+.wrapper-img-layout {
+    display:flex;
+
+}
+.wrapper-img-layout > div:nth-child(n) {
+    width: 50%;
+    position: relative;
+}
+
+.wrapper-img-layout > div.image-check >img {
+    height: 200px;
+    position: absolute;
+    width: 180%;
+
+    top:50%;
+    transform:translate(-50%,-50%);
+}

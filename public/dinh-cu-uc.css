@@ -1,0 +1,254 @@
+.sec-dautukinhdoanh {
+    width:100%;
+    height: 30vh;
+    background:url('../asset/dinh-cu-uc/banner-dau-tu.png');
+    background-size:cover;
+    margin-top: 10vh;
+   
+
+    display:flex;
+}
+.banner-dinhcu {
+    width: 1200px;
+    height:auto;
+    margin: auto auto auto 10vw;
+    
+}
+.banner-dinhcu > p {
+    color:white;
+    font-size: 2.5rem;
+    font-weight:bold;
+    
+   
+
+}
+.banner-dinhcu > h2 {
+    color:white;
+    font-size: 3.5rem;
+    
+}
+/* .mhbmc > div:nth-child(odd) {
+    border-right: 1px solid #c7c7c7;
+}
+.mhbmc > div:nth-child(n) {
+    border-bottom: 1px solid #c7c7c7;
+} */
+.kemjbmja {
+    
+    font-size: 1.3rem;
+    padding: 2rem 0;
+}
+.item-j2h3b {
+    display:block;
+    width:100%;
+    height:100%;
+    
+    padding:1rem;
+    
+}
+.item-j2h3b > img {
+    width:100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 3.456789px solid white;
+}
+.item-j2h3b > p {
+    padding: 1rem 0;
+}
+.item-j2h3b > h2 {
+    padding-top :1rem;
+   color:rgb(49, 33, 102);
+}
+.btn-w-3jn3 > a     {
+    padding: 0.5rem 0.95rem !important;
+    margin: 0 1rem 1rem 0;
+}
+.btn-w-3jn3 {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.sec-laodong {
+    width:100%;
+    height: fit-content;
+   
+    margin-top: 2rem;
+  
+    display:flex;
+    cursor:pointer;
+}
+
+
+
+.boxonslider-k3hj45 {
+    width: 70%;
+    margin:auto;
+    padding: 2rem 1rem 1rem 1rem;
+    border: 1px solid white;
+    background-color: #ffffffb3;
+}
+.boxonsliderbtn-w-3jn3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.boxonsliderbtn-w-3jn3 > a     {
+    padding: 0.7rem 0.7rem !important;
+    margin: 0 1.2rem 1.2rem 0;
+}
+.mySwiper2 > div> div:nth-child(n),.mySwiperXX > div> div:nth-child(n) {
+    background:transparent;
+   /*  background: url('https://img.freepik.com/free-vector/blue-speed-comic-style-background_23-2148820924.jpg?w=2000'); */
+}
+.boxonslider-k3hj45 > h2 {
+    color:rgb(49, 33, 102);
+    padding: 1rem;
+    border: 2px solid rgb(49, 33, 102);
+}
+.boxonslider-k3hj45 > p {
+    text-align: justify;
+    padding: 1rem 0;
+    color: black;
+}
+
+
+.mySwiperThumb > div > div:nth-child(n) > div,.mySwiperThumbXX > div > div:nth-child(n) > div  {
+    font-weight:bold;
+    color:rgb(49, 33, 102);
+    font-size: 1.23456789rem;
+}
+.jhb3bdf {
+    width:100%;
+    height: fit-content;
+    margin:auto;    
+}
+.jhb3bdf > p {
+    color:  rgb(49, 33, 102);
+    font-size: 3rem;
+}
+.jhb3bdf > h2 {
+    color:  rgb(49, 33, 102);
+    font-size: 4rem;
+}
+
+
+.sdfsa34f {
+    border-radius: 5px;
+    width:100%;
+    padding: 2rem 0;
+    height: fit-content;
+    background-size:cover;
+    background-position: center center;
+    background:url('../asset/dinh-cu-uc/bg002.png');
+}
+.sec-duhoc {
+    width:100%;
+
+    height: fit-content;
+
+    display:flex;
+    cursor:pointer;
+}
+
+
+
+
+
+
+.sgsgdfzxbh :before {
+    content: "";
+    background: url(../asset/dinh-cu-uc/lg-fff-solid.png) no-repeat;
+ 
+    width: 230px;
+    height: 100%;
+    top: 15%;
+    right: 0;
+    transform: scale(1.2) rotate(0deg);
+    position: absolute;
+    filter: opacity(0.1);
+}
+
+.sgsgdfzxbh {
+    background-color:rgb(49, 33, 102);
+    color:white;
+    padding: 1rem;
+    position:relative;
+    overflow:hidden;
+    margin-bottom:1rem;
+    
+}
+.sgsgdfzxbh p {
+    font-weight:bold;
+    font-style:italic;
+}
+.sgsgdfzxbh ul {
+    list-style-type:circle;
+    margin:1rem 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+@media( max-width: 555px) {
+    .mw100-555px {
+        width:100% !important;
+    }
+    .kemjbmja {
+        font-size:1rem !important;
+    }
+    .banner-dinhcu {
+        margin:auto auto auto 3vw;
+    }
+    .banner-dinhcu > p {
+        font-size:2rem !important;
+    }
+    .banner-dinhcu > h2 {
+        font-size:1.6rem !important;
+    }
+}
+@media( max-width: 1000px) {
+    .mw100-1000px {
+        width:100% !important;
+    }
+    
+}
+@media( max-width: 666px) {
+    .mySwiper2,.swiper,.swiper-slider {
+        width: 350px !important;
+    }
+    .boxonslider-k3hj45 {
+        width:100%;
+    }
+    .boxonslider-k3hj45 >h2 {
+        font-size: 1.2rem;
+
+    }
+    .swiper-button-prev,.swiper-button-next {
+        opacity:0 !important;
+    }
+    .jhb3bdf {
+        text-align:center;
+       
+    }
+    .jhb3bdf >p {
+        font-size: 2rem;
+    }
+    .jhb3bdf >h2 {
+        font-size: 3.2rem;
+    }
+    .boxonsliderbtn-w-3jn3 > a {
+        padding: 0.5rem 0.5rem !important;
+        margin: 0 0.7rem 0.7rem 0;
+    }
+    .mySwiperThumb > div > div:nth-child(n) > div, .mySwiperThumbXX > div > div:nth-child(n) > div {
+        font-size: 1rem !important;
+    }
+}
+
+
+
